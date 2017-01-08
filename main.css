@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: #eee;
+	background-image: linear-gradient(#eee, white);
+	color: black;
+
+
+}
+	img {
+		max-width: 100%;
+	}
+
+.foot {
+	padding: 40px;
+	text-align: center;
+	font-size: 15px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color: black;
+
+}
+
+.gradient {
+	background-image: linear-gradient(#eee, white);
+	
+}
+
+
+
+
+.set {
+	height: 600px;
+	width: 600px;
+	max-width: 100%;
+}
